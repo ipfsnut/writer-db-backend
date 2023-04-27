@@ -1,5 +1,5 @@
 tasks:
-  - init: echo 'Setting up frontend...' && cd frontend-repo && npm install
-    command: cd frontend-repo && npm start
-  - init: echo 'Setting up backend...' && cd backend-repo && source venv/bin/activate && pip install -r requirements.txt
-    command: cd backend-repo && source venv/bin/activate && python app.py
+  - init: echo 'Setting up backend...' && npm install
+    command: npm start
+  - init: echo 'Setting up frontend...' && cd ../writer-db-app && source venv/bin/activate && pip install -r requirements.txt
+    command: cd ../writer-db-app" && source venv/bin/activate && python app.py
