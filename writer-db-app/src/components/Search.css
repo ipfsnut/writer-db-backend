@@ -1,0 +1,14 @@
+.Search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Search input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  .Search button {
+    margin-left: 10px;
+  }
+  

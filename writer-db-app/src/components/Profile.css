@@ -1,0 +1,30 @@
+.Profile {
+    border: 1px solid black;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .Profile h2 {
+    margin-top: 0;
+  }
+  
+  .Profile-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 16px;
+    margin-top: 16px;
+  }
+  
+  .Profile-details > div {
+    font-weight: bold;
+  }
+  
+  .Profile-details > div:nth-child(even) {
+    font-weight: normal;
+  }
+  
+  .Profile-details > button {
+    grid-column: 1 / span 2;
+  }
+  
